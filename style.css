@@ -1,6 +1,6 @@
 :root  {
     --main: rgb(215, 226, 228);
-    --secondary: rgb(56, 190, 157);
+    --secondary: rgb(72, 152, 243);
     --third: rgb(60, 60, 61);
 }
 
@@ -41,9 +41,9 @@ nav a {
 }
 
 .mainimage {
-    background-image: url("./OIP.jfif");
+    background-image: url("./OIP\ \(5\).jfif");
     background-size: cover;
-    background-position: inherit;
+    background-position: center;
     padding: 2% 4%;
     height: 200px;
     display: flex;
