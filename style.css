@@ -1,0 +1,143 @@
+:root  {
+    --main: rgb(215, 226, 228);
+    --secondary: rgb(56, 190, 157);
+    --third: rgb(60, 60, 61);
+}
+
+body {
+    background-color: var(--main);
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+    background-color: var(--third);
+    padding: 20px 4% 20px 0;
+}
+
+header h1 {
+    color: var(--third);
+    background-color: var(--secondary);
+    margin: 0;
+    padding: 3px 1% 3px 3%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+nav a {
+    color: var(--secondary);
+    margin-right: 15px;
+    font-size: 1.5em;
+}
+
+.mainimage {
+    background-image: url("./OIP.jfif");
+    background-size: cover;
+    background-position: inherit;
+    padding: 2% 4%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.example1 {
+    background-image: url(./OIP\ \(1\).jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.example2 {
+
+}
+
+.example3 {
+
+}
+
+.example4 {
+    
+}
+
+main {
+    max-width: 90%;
+}
+
+.sectionbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    color: var(--third);
+    background-color: var(--main);
+    display: inline;
+    padding: 4px;
+}
+
+.section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.section h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 10px;
+    border-right: 4px solid var(--third);
+    font-size: 2rem;
+}
+
+.section > div {
+    flex: 0 75%;
+}
+
+.flex {
+    display: flex;
+    align-items: flex-end;
+    flex-flow: wrap;
+    border: 4px ridge var(--third);
+    background-color: var(--main);
+    color: var(--secondary);
+    font-size: .8rem;
+    margin: 0.5rem;
+}
+
+.flex:first-child {
+    min-height: 250px;
+    flex-basis: 100%;
+}
+
+div.contact {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+div.contact a {
+    color: var(--third);
+    padding: 3px;
+    font-size: 1.5rem;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    margin: 0 .3rem;
+}
+
