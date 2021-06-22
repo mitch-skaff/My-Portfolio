@@ -60,15 +60,31 @@ nav a {
 }
 
 .example2 {
-
+    background-image: url(./OIP\ \(2\).jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .example3 {
-
+    background-image: url(./OIP\ \(4\).jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .example4 {
-    
+    background-image: url(./OIP\ \(3\).jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+.example5 {
+    background-image: url(./OIP\ \(2\).jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
 }
 
 main {
@@ -77,8 +93,10 @@ main {
 
 .sectionbox {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 h2 {
@@ -100,24 +118,26 @@ h2 {
 .section h2 {
     flex: 0 0 20%;
     text-align: right;
-    padding-right: 10px;
+    padding-right: 15px;
     border-right: 4px solid var(--third);
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .section > div {
-    flex: 0 75%;
+    flex: 0 0 75%;
 }
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: flex-end;
-    flex-flow: wrap;
     border: 4px ridge var(--third);
     background-color: var(--main);
     color: var(--secondary);
     font-size: .8rem;
     margin: 0.5rem;
+    background-size: 100%;
 }
 
 .flex:first-child {
@@ -141,3 +161,20 @@ div.contact a {
     margin: 0 .3rem;
 }
 
+@media screen and (max-width: 750px) {
+    .flex,
+    .flex:first-child {
+      flex-basis: 100%;
+    }
+  
+    .mainimage {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .contact {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
