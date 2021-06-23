@@ -41,7 +41,7 @@ nav a {
 }
 
 .mainimage {
-    background-image: url("./OIP\ \(5\).jfif");
+    background-image: url(../images/OIP\ \(5\).jfif);
     background-size: cover;
     background-position: center;
     padding: 2% 4%;
@@ -53,35 +53,35 @@ nav a {
 }
 
 .example1 {
-    background-image: url(./OIP\ \(1\).jfif);
+    background-image: url(../images/OIP\ \(1\).jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .example2 {
-    background-image: url(./OIP\ \(2\).jfif);
+    background-image: url(../images/OIP\ \(2\).jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .example3 {
-    background-image: url(./OIP\ \(4\).jfif);
+    background-image: url(../images/OIP\ \(4\).jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .example4 {
-    background-image: url(./OIP\ \(3\).jfif);
+    background-image: url(../images/OIP\ \(3\).jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;  
 }
 
 .example5 {
-    background-image: url(./OIP\ \(2\).jfif);
+    background-image: url(../images/OIP\ \(5\).jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;  
@@ -125,6 +125,10 @@ h2 {
 
 .section > div {
     flex: 0 0 75%;
+}
+
+h3 {
+    font-weight: bold;
 }
 
 .flex {
